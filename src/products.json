@@ -1,0 +1,114 @@
+[
+  {
+    "product_id": "spicy-tuna-roll",
+    "name": "Spicy Tuna Roll",
+    "price": 12.99,
+    "oldPrice": 15.99,
+    "description": "A delicious roll filled with fresh tuna, spicy mayo, and cucumber, wrapped in seaweed and rice.",
+    "image": "/images/sushi1.jpg",
+    "features": [
+      "Fresh tuna",
+      "Spicy mayo sauce",
+      "Crisp cucumber",
+      "Hand-rolled with care"
+    ]
+  },
+  {
+    "product_id": "dragon-roll",
+    "name": "Dragon Roll",
+    "price": 18.99,
+    "oldPrice": 22.99,
+    "description": "An impressive roll featuring eel, avocado, cucumber, topped with thin avocado slices and eel sauce.",
+    "image": "/images/sushi2.jpg",
+    "features": [
+      "Eel with sweet eel sauce",
+      "Creamy avocado topping",
+      "Crunchy cucumber",
+      "Perfect balance of flavors"
+    ]
+  },
+  {
+    "product_id": "rainbow-roll",
+    "name": "Rainbow Roll",
+    "price": 16.99,
+    "oldPrice": 20.99,
+    "description": "A colorful roll topped with assorted fresh fish slices over a California roll base.",
+    "image": "/images/sushi3.jpg",
+    "features": [
+      "Assorted fresh fish",
+      "Crab meat base",
+      "Avocado and cucumber",
+      "Vibrant presentation"
+    ]
+  },
+  {
+    "product_id": "california-roll",
+    "name": "California Roll",
+    "price": 11.99,
+    "oldPrice": 14.99,
+    "description": "Classic roll with crab meat, avocado, and cucumber wrapped in seaweed and rice.",
+    "image": "/images/sushi4.jpg",
+    "features": [
+      "Crab meat",
+      "Fresh avocado",
+      "Crunchy cucumber",
+      "Traditional favorite"
+    ]
+  },
+  {
+    "product_id": "tempura-shrimp-roll",
+    "name": "Tempura Shrimp Roll",
+    "price": 14.99,
+    "oldPrice": 18.99,
+    "description": "Crispy tempura shrimp combined with avocado and cucumber, drizzled with spicy mayo.",
+    "image": "/images/sushi5.jpg",
+    "features": [
+      "Crispy tempura shrimp",
+      "Creamy avocado",
+      "Crunchy cucumber",
+      "Spicy mayo drizzle"
+    ]
+  },
+  {
+    "product_id": "vegetable-roll",
+    "name": "Vegetable Roll",
+    "price": 9.99,
+    "oldPrice": 12.99,
+    "description": "A fresh roll packed with cucumber, avocado, carrot, and asparagus, perfect for vegetarians.",
+    "image": "/images/sushi6.jpg",
+    "features": [
+      "Fresh cucumber",
+      "Creamy avocado",
+      "Crunchy carrot",
+      "Tender asparagus"
+    ]
+  },
+  {
+    "product_id": "salmon-avocado-roll",
+    "name": "Salmon Avocado Roll",
+    "price": 15.99,
+    "oldPrice": 19.99,
+    "description": "Delicious roll featuring fresh salmon and creamy avocado, wrapped in seaweed and rice.",
+    "image": "/images/sushi7.jpg",
+    "features": [
+      "Fresh salmon",
+      "Creamy avocado",
+      "Light sushi rice",
+      "Perfectly balanced"
+    ]
+  },
+  {
+    "product_id": "spicy-crab-roll",
+    "name": "Spicy Crab Roll",
+    "price": 13.99,
+    "oldPrice": 16.99,
+    "description": "A spicy and creamy crab roll with cucumber and a touch of chili mayo.",
+    "image": "/images/sushi8.jpg",
+    "features": [
+      "Spicy crab mix",
+      "Fresh cucumber",
+      "Chili mayo sauce",
+      "Hand-crafted roll"
+    ]
+  }
+]

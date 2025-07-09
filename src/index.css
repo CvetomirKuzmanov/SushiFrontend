@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: rgba(234, 88, 12, 1);
+    --color-secondary: #cc5d5d;
+    --color-accent: #4f46e5;
+    --color-text: #393f29;
+    --color-border: #f68781;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    src: url('https://fonts.gstatic.com/s/inter/v3/UcCO3F8a4b0k5d7e6f1z2g.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    src: url('https://fonts.gstatic.com/s/inter/v3/UcCO3F8a4b0k5d7e6f1z2g.woff2') format('woff2');  
+}
+@font-face {
+    font-family: 'remixicon';
+    font-weight: normal;
+    src: url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css') format('woff2');
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;400;500;600;700&display=swap') format('woff2');
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.min.css');
+
+
+   /* :where([class^="ri-"])::before { content: "\f3c2"; } */
+      body {
+          font-family: 'Inter', sans-serif;
+      }
+      .hero-section {
+          background-image: url('/images/sushi5.jpg');
+          background-size: cover;
+          background-position: center right;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }
+      .custom-checkbox {
+          position: relative;
+          cursor: pointer;
+      }
+      .custom-checkbox input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+      }
+      .checkmark {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 18px;
+          width: 18px;
+          background-color: #fff;
+          border: 1px solid #d1d5db;
+          border-radius: 4px;
+      }
+      .custom-checkbox:hover input ~ .checkmark {
+          background-color: #f3f4f6;
+      }
+      .custom-checkbox input:checked ~ .checkmark {
+          background-color: #4f46e5;
+          border-color: #4f46e5;
+      }
+      .checkmark:after {
+          content: "";
+          position: absolute;
+          display: none;
+      }
+      .custom-checkbox input:checked ~ .checkmark:after {
+          display: block;
+      }
+      .custom-checkbox .checkmark:after {
+          left: 6px;
+          top: 2px;
+          width: 5px;
+          height: 10px;
+          border: solid white;
+          border-width: 0 2px 2px 0;
+          transform: rotate(45deg);
+      }
+      .switch {
+          position: relative;
+          display: inline-block;
+          width: 44px;
+          height: 24px;
+      }
+      .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+      .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #e5e7eb;
+          transition: .4s;
+          border-radius: 34px;
+      }
+      .slider:before {
+          position: absolute;
+          content: "";
+          height: 18px;
+          width: 18px;
+          left: 3px;
+          bottom: 3px;
+          background-color: white;
+          transition: .4s;
+          border-radius: 50%;
+      }
+      input:checked + .slider {
+          background-color: #4f46e5;
+      }
+      input:checked + .slider:before {
+          transform: translateX(20px);
+      }
+      .custom-range {
+          -webkit-appearance: none;
+          width: 100%;
+          height: 6px;
+          border-radius: 5px;
+          background: #e5e7eb;
+          outline: none;
+      }
+      .custom-range::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #4f46e5;
+          cursor: pointer;
+      }
+      .custom-range::-moz-range-thumb {
+          width: 18px;
+          height: 18px;
+          border-radius: 50%;
+          background: #4f46e5;
+          cursor: pointer;
+          border: none;
+      }
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: white;
+          min-width: 160px;
+          box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+          z-index: 50;
+          border-radius: 8px;
+      }
+    
